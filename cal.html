@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link res="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("res6.jpg");
+        }
+    </style>
+    <div id="centr">
+    <div id="bl"><h1>My Simple Calculator</h1></div><hr>
+    <h3>Enter the Number-1:</h3>
+    <input type="number" id="n1">
+    <h3>Enter the Number-2:</h3>
+    <input type="number" id="n2"><br><br><hr>
+
+    
+    <h3>Addition:</h3>
+    <button id="b1" type="button" onclick="add()">+</button>
+    <p id="button1" placeholder="ans" class="add"></p><hr>
+
+    <h3>Subraction:</h3>
+    <button id="b2" type="button" onclick="sub()">-</button>
+    <p id="button2" placeholder="ans" class="sub"></p><hr>
+
+    <h3>Multiplication:</h3>
+    <button id="b3" type="button" onclick="mul()">x</button>
+    <p id="button3" placeholder="ans" class="mul"></p><hr>
+
+    <h3>Division:</h3>
+    <button id="b4" type="button" onclick="div()">/</button>
+    <p id="button4" placeholder="ans" class="div"></p><hr>
+
+    <h3>Module:</h3>
+    <button id="b5" type="button" onclick="mod()">%</button>
+    <p id="button5" placeholder="ans" class="mod"></p><hr>
+
+    <h3>Cube:</h3>
+    <button id="b6" type="button" onclick="cube()">^3</button>
+    <p id="button6" placeholder="ans" class="cube"></p><hr>
+<script src="one.js"></script>
+
+</body>
+</html>
